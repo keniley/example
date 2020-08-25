@@ -1,0 +1,10 @@
+{
+    "/dist/admin/css/admin.css": "/dist/admin/css/admin.css",
+    "/dist/web/css/web.css": "/dist/web/css/web.css",
+    "/dist/admin/css/vendor.css": "/dist/admin/css/vendor.css",
+    "/dist/web/css/vendor.css": "/dist/web/css/vendor.css",
+    "/dist/admin/js/app.js": "/dist/admin/js/app.js",
+    "/dist/web/js/app.js": "/dist/web/js/app.js",
+    "/dist/admin/js/vendor.js": "/dist/admin/js/vendor.js",
+    "/dist/web/js/vendor.js": "/dist/web/js/vendor.js"
+}

@@ -1,0 +1,9 @@
+.breadcrumb .icon {
+  font-size: 1.4rem;
+  position: relative;
+  top: -3px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ": :";
+}

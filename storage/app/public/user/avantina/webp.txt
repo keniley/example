@@ -1,0 +1,12 @@
+https://squoosh.app/editor
+
+middle
+- WebP
+- Effort 3
+- Quality: 80
+
+thumb
+- WebP
+- Effort 5
+- Quality 60
+

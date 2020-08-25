@@ -1,0 +1,16 @@
+.panel {
+    @include border-radius(3px);
+    @include material-shadow(2);
+}
+
+.panel .panel-header {
+    border-bottom: 1px solid $gray-600;
+}
+
+.panel .panel-header h2 {
+    font-size: 1.6rem;
+}
+
+.panel .panel-header h2 small {
+    font-size: 1rem;
+}

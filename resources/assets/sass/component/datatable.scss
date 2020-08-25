@@ -1,0 +1,116 @@
+.datab .datab-sortable:hover {
+    cursor: pointer;
+}
+
+.datab .datab-sortable:before,
+.datab .datab-sortable:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: $gray-600;
+    position: absolute;
+    right: -15px;
+    font-size: 17px;
+    display: none;
+}
+
+.datab .datab-sortable:after {
+    content: "\f0dd";
+    top: -4px;
+}
+
+.datab .datab-sortable:before {
+    content: "\f0de";
+    bottom: -6px;
+}
+
+.datab .datab-sortable.asc:before,
+.datab .datab-sortable.desc:after,
+.datab .datab-sortable:hover:before,
+.datab .datab-sortable:hover:after  {
+    display: block;
+}
+
+
+.datab .datab-sortable.asc:before,
+.datab .datab-sortable.desc:after {
+    color: black;
+}
+
+.datab .datab-sortable:hover:before {
+    top: -3px;
+}
+
+.datab .datab-sortable:hover:after {
+    top: 0px;
+}
+
+.datab .datab-pagination .datab-page {
+    display: flex;
+    margin: .1rem .2rem;
+    border-radius: 100%;
+    color: $gray-800;
+    background-color: $gray-200;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.datab .datab-pagination .datab-separator {
+    display: flex;
+    align-items: flex-end;
+    width: 21px;
+    height: 35px;
+    justify-content: center;
+}
+
+.datab .datab-pagination .datab-page.active,
+.datab .datab-pagination .datab-page:hover {
+    background-color: $primary;
+    color: white;
+    cursor: pointer;
+}
+
+.datab .dropdown-menu {
+    min-width: 200px;
+    z-index: 10000000000;
+}
+
+.datab .dropup .dropdown-menu {
+    left: -5px !important;
+}
+
+.datab-limit .dropdown {
+    width: 60px !important;
+    margin: 0px 1rem;
+}
+
+.datab-limit .dropdown-menu {
+    width: auto;
+    min-width: unset;
+}
+
+@media (max-width: 800px) {
+    .datab .datab-footer {
+        flex-wrap: wrap;
+        margin-top: 1.6rem;
+    }
+
+    .datab .datab-footer-button {
+        order: 1;
+        width: 50%;
+    }
+
+    .datab .datab-footer-limit {
+        order: 2;
+        width: 50%;
+    }
+
+    .datab .datab-footer-paging {
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1.6rem;
+    }
+}
